@@ -1,0 +1,83 @@
+.loginPage{
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #DDDDDD;
+    font-size: 16px;
+}
+
+.loginFormContainer{
+    width: 400px;
+    max-width: 96vw;
+
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 15px;
+
+    padding: 10px;
+}
+.loginFormContainer img{
+    max-width: 96vw;
+}
+
+.loginFormContainer span{
+    margin-bottom: 10px;
+}
+
+.loginForm{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.loginLabel{
+    margin: 10px 0px 3px 7px;
+}
+
+.loginInput{
+    outline: none;
+    padding: 10px;
+
+    font-family: "Jura", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.loginButton{
+    font-family: "Jura", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+    padding: 10px;
+    margin-top: 30px;
+
+    border: 0;
+    border-radius: 10px;
+
+    background-color: #DDDDDD;
+}
+
+.loginButton:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0F4F21;
+}
+
+
+
+
