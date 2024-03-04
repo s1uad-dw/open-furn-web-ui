@@ -1,0 +1,111 @@
+.registrationPage{
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #DDDDDD;
+    font-size: 16px;
+}
+
+.registrationFormContainer{
+    width: 400px;
+    max-width: 96vw;
+    
+    height: 560px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 15px;
+
+    padding: 10px;
+    /* margin-top: 250px; */
+}
+
+.registrationFormContainer img{
+    max-width: 96vw;
+}
+
+.registrationFormContainer span{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.registrationForm{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.registrationTypeSelector{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.registrationTypeSelector span{
+    width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+}
+
+.registrationTypeSelector button{
+    margin: 0;
+    flex-grow: 1;
+    width: 47%;
+}
+
+.registrationLabel{
+    margin: 10px 0px 3px 7px;
+}
+
+.registrationInput{
+    outline: none;
+    padding: 10px;
+
+    font-family: "Jura", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.registrationButton{
+    font-family: "Jura", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+    padding: 10px;
+    margin-top: 30px;
+
+    border: 0;
+    border-radius: 10px;
+
+    background-color: #DDDDDD;
+}
+
+.registrationButton:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0F4F21;
+}
+
+.registrationButtonActive{
+    color: white;
+    background-color: #0F4F21;
+}
